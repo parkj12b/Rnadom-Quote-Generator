@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    transition: .5s ease-in-out
+}
+
+.container{
+    background-color: white;
+    border-radius: 3px;
+    width: 550px;
+    padding: 40px 50px;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+}
+
+#text {
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1;
+    
+}
+
+#quote-text {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+i.fa-quote-left {
+    margin-right: 0.4em;
+    font-size: 1em;
+}
+
+#author {
+    text-align: right;
+    padding-top: 20px;
+}
+
+#new-quote{
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px 18px 6px 18px;
+    border-radius: 5px;
+    
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button{
+    padding: 0px;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
